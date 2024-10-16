@@ -1,13 +1,11 @@
-const express = require("express");
-const products = require("./products.json");
-
-const crypto = require("node:crypto");
-const z = require("zod");
-const cors = require("cors");
-const { validateProduct, validatePartialProduct } = require("./products");
+import express, { json } from "express";
+import products from "./products.json" with { type: "json" };
+import { randomUUID } from "node:crypto";
+import cors from "cors";
+import { validateProduct, validatePartialProduct } from "./schemas/products.js";
 
 const app = express();
-app.use(express.json()); // Middleware para parsear JSON
+app.use(json()); // Middleware para parsear JSON
 app.use(cors()); // Middleware para habilitar CORS
 app.disable("x-powered-by"); // desabilita o header X-Powered-By
 
@@ -30,7 +28,7 @@ app.get("/products", (req, res) => {
 
 app.get("/products/:id", (req, res) => {
   const { id } = req.params;
-  const productId = products.find((product) => product.id === parseInt(id));
+  const productId = product.find((product) => product.id === parseInt(id));
 
   if (productId) {
     return res.json(productId);
@@ -46,7 +44,7 @@ app.post("/products", (req, res) => {
 
   // En base de datos
   const newProduct = {
-    id: crypto.randomUUID(),
+    id: randomUUID(),
     ...validate.data,
   };
   products.push(newProduct);
@@ -60,7 +58,7 @@ app.patch("/products/:id", (req, res) => {
   }
 
   const { id } = req.params;
-  const productIndex = products.findIndex((product) => product.id === id);
+  const productIndex = product.findIndex((product) => product.id === id);
   if (productIndex === -1) {
     return res.status(404).json({ error: "Producto no encontrado" });
   }
@@ -72,7 +70,7 @@ app.patch("/products/:id", (req, res) => {
 
 app.delete("/products/:id", (req, res) => {
   const { id } = req.params;
-  const productIndex = products.findIndex((product) => product.id === id);
+  const productIndex = product.findIndex((product) => product.id === id);
   if (productIndex === -1) {
     return res.status(404).json({ error: "Producto no encontrado" });
   }

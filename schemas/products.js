@@ -1,4 +1,4 @@
-const z = require("zod");
+import { z } from "zod";
 
 const productSchema = z.object({
   nombre: z.string().min(1, "El nombre no puede estar vacío"),
@@ -17,16 +17,11 @@ const productSchema = z.object({
   imagen: z.string().url().optional(),
 });
 
-function validateProduct(obj) {
+export function validateProduct(obj) {
   return productSchema.safeParse(obj);
 }
 
 // Pone todas las propiedades como opcionales
-function validatePartialProduct(obj) {
+export function validatePartialProduct(obj) {
   return productSchema.partial().safeParse(obj);
 }
-
-module.exports = {
-  validateProduct,
-  validatePartialProduct,
-};
