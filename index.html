@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #app {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      .card {
+        border: 1px solid #ccc;
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+        padding: 10px;
+      }
+      img {
+        width: 100%;
+      }
+    </style>
+    <script type="module">
+      fetch("http://localhost:1234/products")
+        .then((res) => res.json())
+        .then((product) => {
+          const html = product
+            .map((p) => {
+              return `
+                  <div class='card' data-id = "${p.id}">
+                      <img src="${p.imagen}" alt="${p.nombre}">
+                      <h4>${p.nombre}</h4>
+                      <p>${p.precio}€</p>
+                      <p>${p.category}</p>
+                </div>`;
+            })
+            .join("");
+          document.getElementById("app").innerHTML = html;
+        });
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>

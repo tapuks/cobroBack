@@ -1,0 +1,426 @@
+[
+  {
+    "nombre": "Cafe",
+    "id": "b46b094a-1a58-45eb-b675-997ce3e92ba7",
+    "precio": 1.3,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "cafe"
+  },
+  {
+    "nombre": "Cortado",
+    "id": "5eb8ffc2-9243-4b33-a415-6e77e31ba2cb",
+    "precio": 1.4,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "cafe"
+  },
+  {
+    "nombre": "Cafe leche",
+    "id": "bc2172a5-2270-49ce-ae21-b38fac12b09d",
+    "precio": 1.5,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "cafe"
+  },
+  {
+    "nombre": "Carajillo",
+    "id": "74c05c0a-fc64-4e49-a8c8-024400cf0518",
+    "precio": 2,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "cafe"
+  },
+  {
+    "nombre": "Infusion",
+    "id": "98bb9fc6-f063-4fe3-82fa-3c7aeba24115",
+    "precio": 1.4,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "cafe"
+  },
+  {
+    "nombre": "Refresco",
+    "id": "1adf1659-69a0-4efc-ae8a-2c2f4e47cac7",
+    "precio": 2,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "refresco"
+  },
+  {
+    "nombre": "Cerveza",
+    "id": "4ddd7582-083c-4ab7-87ea-52461c25f51c",
+    "precio": 2,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "refresco"
+  },
+  {
+    "nombre": "Cerveza jarra",
+    "id": "4ebaf373-9414-4a4c-a38a-f6e2a0db860a",
+    "precio": 2.5,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "refresco"
+  },
+  {
+    "nombre": "Vichy",
+    "id": "074275f4-694f-4807-902b-236022c6d2bc",
+    "precio": 2,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "refresco"
+  },
+  {
+    "nombre": "Bitter kas",
+    "id": "795c2558-bc14-4f57-92f1-a5e8d3f8bdc1",
+    "precio": 2.2,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "refresco"
+  },
+  {
+    "nombre": "Tinto verano",
+    "id": "63d2d052-ef62-43c2-8015-dd2a1fda6ee2",
+    "precio": 2.2,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "refresco"
+  },
+  {
+    "nombre": "Cacaolat",
+    "id": "6fe54cb2-78df-4606-9d12-03d751c558c9",
+    "precio": 2,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "refresco"
+  },
+  {
+    "nombre": "Red bull",
+    "id": "276ec66c-bc08-477c-b988-fdc87a8455d1",
+    "precio": 2.5,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "refresco"
+  },
+  {
+    "nombre": "Tonica",
+    "id": "b91b4581-45d7-4fef-95d0-8c3c71135216",
+    "precio": 2,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "refresco"
+  },
+  {
+    "nombre": "Zumo",
+    "id": "10d842da-7b58-4137-a776-80b3bfce00a7",
+    "precio": 2,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "refresco"
+  },
+  {
+    "nombre": "Agua pequeña",
+    "id": "9378337e-8611-4a08-bb4f-633de3bf49c0",
+    "precio": 1,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "refresco"
+  },
+  {
+    "nombre": "Agua grande",
+    "id": "bf7c0a89-31b9-4661-9496-3a965eed5891",
+    "precio": 1.5,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "refresco"
+  },
+  {
+    "nombre": "Patatas",
+    "id": "a6d3f3dd-4c53-4894-a8b9-e4ff1c8d5383",
+    "precio": 1.2,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "patatas"
+  },
+  {
+    "nombre": "Palomitas",
+    "id": "66cc6f38-22f2-4133-a31c-58377fe241a7",
+    "precio": 1,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "patatas"
+  },
+  {
+    "nombre": "Gusanitos",
+    "id": "165f52bd-173f-40fa-94ce-15ce03c1514c",
+    "precio": 1,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "patatas"
+  },
+  {
+    "nombre": "Chicharritos",
+    "id": "cf5cf50e-3d76-49f1-b57f-3f8f3dde1f70",
+    "precio": 1.5,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "patatas"
+  },
+  {
+    "nombre": "Torcis",
+    "id": "7526e5e4-82cd-47b3-beae-87a16d458723",
+    "precio": 0.6,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "patatas"
+  },
+  {
+    "nombre": "patata manos",
+    "id": "ca6cb48e-6e75-46e6-9b24-f93a4ed27488",
+    "precio": 0.8,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "patatas"
+  },
+  {
+    "nombre": "Apetinas",
+    "id": "623a3edc-56fb-493c-b194-21285572b0cf",
+    "precio": 0.6,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "patatas"
+  },
+  {
+    "nombre": "Fritos",
+    "id": "bf650fb7-fd1d-40c1-95b8-55c17d630515",
+    "precio": 0.6,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "patatas"
+  },
+  {
+    "nombre": "Kaskys",
+    "id": "425ae6b9-aa06-4156-aeb8-63e8040185a8",
+    "precio": 0.8,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "patatas"
+  },
+  {
+    "nombre": "Chuches",
+    "id": "7e90d0cf-5d2a-45ac-9c81-e3a8ea2f09b6",
+    "precio": 1.2,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "patatas"
+  },
+  {
+    "nombre": "Palote chcuche",
+    "id": "30ee9422-9e86-4675-b4d5-52528f1b97a2",
+    "precio": 0.75,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "patatas"
+  },
+  {
+    "nombre": "Tubes fini",
+    "id": "cd069964-c49a-44ae-9d3d-808314b0a410",
+    "precio": 1.3,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "patatas"
+  },
+  {
+    "nombre": "Suplemento 0.10",
+    "id": "8ac55643-adbb-475a-9dcb-4c9e5880c45c",
+    "precio": 0.1,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "extra"
+  },
+  {
+    "nombre": "Suplemento 0.50",
+    "id": "41d719ef-b22e-4a5f-833f-b15e8d46941e",
+    "precio": 0.5,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "extra"
+  },
+  {
+    "nombre": "Licor vaquero",
+    "id": "e2f5ce04-b6c8-4531-a16c-61eccd08b05e",
+    "precio": 2,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "licor"
+  },
+  {
+    "nombre": "Licor tubo",
+    "id": "38464870-9413-496b-9fa6-3b0e865c8d1f",
+    "precio": 3.5,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "licor"
+  },
+  {
+    "nombre": "Cubata",
+    "id": "37bb8ef3-3556-4ed1-9297-dc196f0f0ac1",
+    "precio": 5,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "licor"
+  },
+  {
+    "nombre": "Cubata Redbull",
+    "id": "583f0b75-506a-42e6-9af7-1dc47f25fe85",
+    "precio": 6.5,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "licor"
+  },
+  {
+    "nombre": "Vermouth",
+    "id": "af32514c-b16d-45a6-ace1-9c3279d207aa",
+    "precio": 2.5,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "licor"
+  },
+  {
+    "nombre": "Bocadillo",
+    "id": "9b2d1c70-51eb-455f-b383-e2b63e46a314",
+    "precio": 5.5,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "comida"
+  },
+  {
+    "nombre": "Hamburguesa",
+    "id": "98c50fa7-84ac-4932-9fce-041e632e4114",
+    "precio": 9,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "comida"
+  },
+  {
+    "nombre": "Plato combinado",
+    "id": "379b05b9-ed39-4b25-9a5e-02cdefab6aaf",
+    "precio": 10,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "comida"
+  },
+  {
+    "nombre": "Bravas",
+    "id": "b348e6a3-faa6-4026-b5f0-5ee3bcd916dc",
+    "precio": 5,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "comida"
+  },
+  {
+    "nombre": "Calamares",
+    "id": "cb4e91e8-c41f-401b-ac69-d164df3c2d7b",
+    "precio": 7,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "comida"
+  },
+  {
+    "nombre": "Sepia-gambas",
+    "id": "1eba7d81-b595-461c-abfc-c2592a0b61df",
+    "precio": 14,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "comida"
+  },
+  {
+    "nombre": "Pizza",
+    "id": "88a32c10-f03d-45a0-87a3-fd2438c9c371",
+    "precio": 11,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "comida"
+  },
+  {
+    "nombre": "Almuerzo",
+    "id": "11fa4747-fe88-446f-a9fb-a2ce6511cdb1",
+    "precio": 10,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "comida"
+  },
+  {
+    "nombre": "Plato 1",
+    "id": "8b344eb2-f3b0-4bdc-8959-7f4fd8058b2e",
+    "precio": 6,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "comida"
+  },
+  {
+    "nombre": "Plato 2",
+    "id": "a70e5462-1193-425b-b71a-8bb6ad789c07",
+    "precio": 7,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "comida"
+  },
+  {
+    "nombre": "Plato 3",
+    "id": "cea4ef4c-b0e3-4c2e-9d9e-89c36ab14982",
+    "precio": 8,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "comida"
+  },
+  {
+    "nombre": "Olivas",
+    "id": "c79772d6-eae2-4818-a643-c8296bdb44a4",
+    "precio": 1.5,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "comida"
+  },
+  {
+    "nombre": "Caracoles",
+    "id": "88dd7272-900e-44d7-a583-e563e90a0764",
+    "precio": 8,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "comida"
+  },
+  {
+    "nombre": "Helado 1",
+    "id": "1e875681-9378-4a7e-be22-7b849aa9978c",
+    "precio": 1.5,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "helado"
+  },
+  {
+    "nombre": "Helado 2",
+    "id": "906eb6ed-a51f-4762-a4e3-818b31b7c9e3",
+    "precio": 1.7,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "helado"
+  },
+  {
+    "nombre": "Helado 3",
+    "id": "61d6855b-3afc-4c58-a8c4-ee72d2e32919",
+    "precio": 2,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "helado"
+  },
+  {
+    "nombre": "Helado 4",
+    "id": "7e125d0e-9f82-4f4e-92c3-34d04ce8f868",
+    "precio": 2.5,
+    "seleccionado": false,
+    "cantidad": 0,
+    "category": "helado"
+  }
+]
